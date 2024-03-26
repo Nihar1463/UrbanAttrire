@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Allan:wght@400;700&family=Kaisei+Tokumin&family=Mohave:ital,wght@0,300..700;1,300..700&family=Risque&family=Rufina:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#container1 {
+  width: 100%;
+  height: 50vh;
+  background-color: #e0effb;
+  position: relative;
+  align-items: center;
+}
+
+#title {
+  /* width: 10%; */
+  /* background-color: antiquewhite; */
+  /* height: 5vw; */
+  position: absolute;
+  margin: 5vw 8vw;
+  /* padding: 0 10vw; */
+  font-size: 3.3vw;
+  font-family: "Rufina", serif;
+  color: #0f2c66;
+}
+#container2 {
+  width: 100%;
+  /* background-color: #0f2c66; */
+  /* height: 30vw; */
+  position: relative;
+  padding: 8vw;
+}
+#container2_flex {
+  /* background-color: red; */
+  /* width: 80%; */
+  height: 45vh;
+  display: flex;
+  /* position: absolute; */
+}
+#container2_items {
+  /* background-color: #222c34; */
+  width: 100%;
+  height: 100%;
+  margin-right: 0.5vw;
+  position: relative;
+}
+.container2_img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.item_imgC2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.item_imgC22 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.item_imgC22:hover {
+  display: none;
+}
